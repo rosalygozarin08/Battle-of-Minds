@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/battle-of-mind.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.leonelbulawan.BattleOfMinds"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "320d1b71-eaa0-4970-8bc1-b891d609be9f"
+      }
     }
   }
 }

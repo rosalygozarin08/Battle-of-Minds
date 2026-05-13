@@ -1,50 +1,91 @@
-# Welcome to your Expo app 👋
+# Battle of Minds
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Battle of Minds** is a mobile quiz learning application designed for students who want an engaging and accessible way to practice academic subjects. The app allows students to browse subjects, select topics, answer quizzes, view results, review answers, and monitor their learning progress through saved score history.
 
-## Get started
+## Problem Statement
 
-1. Install dependencies
+Some students want to improve their academic knowledge, but they often struggle to find a simple, accessible, and engaging way to practice what they have learned. In a traditional learning setup, students usually depend on notes, books, classroom discussions, or printed reviewers. However, these materials do not always provide immediate feedback. A student may answer practice questions, but without instant results and explanations, it becomes harder to determine which answers are correct, what mistakes were made, and which topics need further improvement.
 
-   ```bash
-   npm install
-   ```
+**Battle of Minds** addresses this concern by providing an interactive mobile quiz application where students can practice subject-based and topic-based quizzes, receive immediate results, review correct answers, and monitor their learning progress.
 
-2. Start the app
+## Target Users
 
-   ```bash
-   npx expo start
-   ```
+The target users of this application are **students** who want an engaging way to practice academic subjects. The app is intended to help them enhance their understanding through quizzes. Instead of only reading notes or memorizing lessons, students can answer topic-based questions and immediately see their results after completing a quiz.
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Midterm MVP Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Home screen
+- Subject browsing
+- Topic selection
+- Multiple-choice quiz
+- Quiz timer
+- Quiz result screen
+- Answer review with explanations
+- User registration
+- User login and logout
+- Forgot password
+- Firebase Authentication
+- Firestore score saving
+- Profile screen
+- Score history
+- Loading states, empty states, and error handling
+- Form validation
 
-## Get a fresh project
+### Final Features
 
-When you're ready, run:
+- Login persistence
+- Edit profile
+- Learning notifications
+- Delete notification
+- Delete score history record
+- App logo integration
+- Android APK build using EAS Build
+- Firebase Security Rules for private user data
+- Improved UI/UX with consistent purple theme
+- Firestore query for user score history
+- Local caching using AsyncStorage
+- Personalized progress feedback after quizzes
 
-```bash
-npm run reset-project
-```
+## Technology Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Expo
+- React Native
+- Expo Router
+- Firebase Authentication
+- Firebase Firestore
+- AsyncStorage
+- EAS Build
 
-## Learn more
+## Architecture Overview
 
-To learn more about developing your project with Expo, look at the following resources:
+The project follows an organized folder structure to separate screens, reusable components, constants, services, data, and types.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+BattleOfMinds
+├── app
+│   ├── _layout.tsx
+│   ├── login.tsx
+│   ├── register.tsx
+│   ├── forgot-password.tsx
+│   ├── topics.tsx
+│   ├── quiz.tsx
+│   ├── result.tsx
+│   ├── notifications.tsx
+│   ├── score-history.tsx
+│   ├── edit-profile.tsx
+│   └── (tabs)
+│       ├── _layout.tsx
+│       ├── index.tsx
+│       ├── subjects.tsx
+│       └── profile.tsx
+├── assets
+├── components
+├── constants
+├── data
+├── services
+├── types
+├── app.json
+├── eas.json
+└── package.json
