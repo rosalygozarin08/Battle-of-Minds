@@ -1,16 +1,14 @@
 # Battle of Minds
 
-**Battle of Minds** is a mobile quiz learning application designed for students who want an engaging and accessible way to practice academic subjects. The app allows students to browse subjects, select topics, answer quizzes, view results, review answers, and monitor their learning progress through saved score history.
+**Battle of Minds** is a mobile quiz learning application designed to help students practice academic subjects through interactive quizzes. The application provides a learning experience where students can browse subjects, select topics, answer quiz questions, view results, review explanations, and monitor their learning progress.
 
 ## Problem Statement
 
-Some students want to improve their academic knowledge, but they often struggle to find a simple, accessible, and engaging way to practice what they have learned. In a traditional learning setup, students usually depend on notes, books, classroom discussions, or printed reviewers. However, these materials do not always provide immediate feedback. A student may answer practice questions, but without instant results and explanations, it becomes harder to determine which answers are correct, what mistakes were made, and which topics need further improvement.
-
-**Battle of Minds** addresses this concern by providing an interactive mobile quiz application where students can practice subject-based and topic-based quizzes, receive immediate results, review correct answers, and monitor their learning progress.
+Some students want to improve their academic knowledge, but they often struggle to find a simple, accessible, and engaging way to practice what they have learned. In a traditional learning setup, students usually depend on notes, books, classroom discussions, or printed reviewers. However, these materials do not always provide immediate feedback. A student may answer practice questions, but without instant results and explanations, it becomes harder to determine which answers are correct, what mistakes were made, and which topics need further improvement. Because of this, reviewing can sometimes feel passive, repetitive, and less motivating. 
 
 ## Target Users
 
-The target users of this application are **students** who want an engaging way to practice academic subjects. The app is intended to help them enhance their understanding through quizzes. Instead of only reading notes or memorizing lessons, students can answer topic-based questions and immediately see their results after completing a quiz.
+The target users of this application are **students** who want an engaging and accessible way to practice academic subjects. The application is intended to help them enhance their understanding through interactive quizzes. Instead of relying only on reading notes or memorizing lessons, students can answer topic-based questions and immediately see their results after completing a quiz. Through this, students can identify their strengths, recognize the topics they need to improve, and continue practicing at their own pace.
 
 ## Features
 
